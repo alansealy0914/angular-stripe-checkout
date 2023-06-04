@@ -13,8 +13,76 @@
       {{ product.description }}
       <div class="buy-products">
         <h3>{{ product.price | currency }}</h3>
-        <button (click)="triggerCreateCheckout(product)">Buy Now</button>
+        <button type="button" class="btn btn-success" (click)="triggerCreateCheckout(product)">Buy Now</button>
+        <!--<button (click)="triggerCreateCheckout(product)">Buy Now</button>-->
+        <button type="button" class="btn btn-link">add to cart</button>
+
       </div>
     </div>
   </div>
 </div>
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  
+
+    <!-- Section: Form -->
+    <section class=""><br>
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-2">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+              <section class="mb-2">
+                Contact Us: 402-xxx-xxxx <br>
+                <small class="text-center">Notice: No refund exchanges within 3 days. Fee for deliveries under $20. Orders over 20 popcorn balls or more require 48hr advance notice.
+                  Orders 50 (popcorn balls) or more require deposit 1/2 down.
+                </small>
+              </section>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-2">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text --
+    <section class="mb-2">
+      Contact Us: 402-xxx-xxxx <br>
+      <small class="text-center">Notice: No refund exchanges within 3 days. Fee for deliveries under $20. Orders over 20 popcorn balls or more require 48hr advance notice.
+        Orders 50 (popcorn balls) or more require deposit 1/2 down.
+      </small>
+    </section>
+    <!-- Section: Text -->
+
+    
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright: HAGG WEAR SERVICES, LLC    ||   Omaha, Nebraska    ||
+    <a class="text-white" href="https://mdbootstrap.com/">haggwearservices.com</a></div></footer>

@@ -3,24 +3,22 @@
     "name": "Rainbow Combow",
     "id": 1,
     "price": "24",
-    "url": "https://finnjuhl.com/collection/chieftain-chair",
     "image": "../assets/product-imaging/shopping.jpg", 
-    "description": "The iconic Chieftain chair is one of Finn Juhl’s absolute masterpieces, representing the peak of his career as a furniture designer."
+    "description": "This iconic Rainbow Combo is the perfect party combination...  We call it our Rainbow Combo party favorite."
   },
   {
-    "name": "Hans Wegner | Papa Bear",
+    "name": "Great Party Package | Papa Bear Popcorn Trio Delights",
     "id": 2,
-    "price": "27500",
-    "url": "https://bit.ly/3vjcqFO",
+    "price": "27",
     "image": "../assets/product-imaging/GBPopCorn.jpg",
-    "description": "The wingback Papa Bear chair, also known as the Teddy Bear chair, has two outstretched arms with wood detailing once described by a critic as “great bear paws embracing you from behind” — hence the name."
+    "description": "This tri-pack Papa Bear treat comes in three side-by-side gummy bear flavors, also known as the The Three Little Bears"
   },
   {
-    "name": "Alan's Choice | Grass-Seated",
+    "name": "Snickers Candy Mix Popcorn Favorites ",
     "id": 3,
-    "price": "7500",
+    "price": "30",
     "url": "https://bit.ly/3iBey98",
     "image": "../assets/product-imaging/butterfinger.jpg",
-    "description": "George Nakashima's Grass-Seated Chair is perhaps the designer-maker's most innovative design, originally created for MoMA's René d'Harnoncourt in 1943."
+    "description": "This candy popcorn mix is everyone's favorite. It comes in a separately wrapped party twin pack of caramel popcorn with a chocolatey snickers mix. We call it Muddy Marble-icious."
   }
 ]
